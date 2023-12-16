@@ -1,4 +1,3 @@
-
 import heapq
 import re
 def top_3_words(text):
