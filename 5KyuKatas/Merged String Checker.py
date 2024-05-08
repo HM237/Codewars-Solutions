@@ -7,15 +7,10 @@ def is_merge(s, part1, part2):
     list2 = list(s)
     list1 = sorted(list1)
     list2 = sorted(list2)
-    if len(list1) > len(list2):
-        return False
+    if len(list1) > len(list2): return False
     else:
         for a,b in zip(list1, list2):
-            if a == b:
-                checker.append("True")
-            else:
-                checker.append("False")
-    if "False" in checker:
-        return False
-    else:
-        return True
+            if a == b: checker.append("True")
+            else: checker.append("False")
+    if "False" in checker: return False
+    else: return True
