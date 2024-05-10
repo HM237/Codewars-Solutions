@@ -1,10 +1,8 @@
 def find_short(s):
-    s= s.split()
-    temp = []
-    for i in s:
-        temp.append(len(i))
-    return min(temp)
-
+    array = s.split(" ")
+    lengths = []
+    for word in array: lengths.append(len(word))
+    return min(lengths)
 
 
 
