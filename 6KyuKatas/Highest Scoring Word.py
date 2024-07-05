@@ -8,5 +8,4 @@ def high(x):
             point = alphabet.index(letter)
             value += point + 1
         score.append(value)
-    index = score.index(max(score))
-    return list1[index]
+    return list1[score.index(max(score))]
