@@ -1,4 +1,4 @@
-# Quick README for Codewars Python Solutions
+#Codewars Python Solutions
 
 ## Overview
 This repository contains my solutions to Codewars katas (coding challenges) that I completed while learning Python. The solutions range from beginner to more advanced levels as I progressed in my Python learning journey.
